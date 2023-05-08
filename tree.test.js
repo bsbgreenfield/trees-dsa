@@ -41,12 +41,12 @@ describe("sumValues", function() {
     expect(largeTree.sumValues()).toEqual(36);
   });
 
-  it("sums up an empty tree", function() {
+   it("sums up an empty tree", function() {
     expect(emptyTree.sumValues()).toEqual(0);
-  });
+  }); 
 });
 
-describe("countEvens", function() {
+ describe("countEvens", function() {
   it("counts nodes in simple trees", function() {
     expect(smallTree.countEvens()).toEqual(1);
   });
@@ -78,3 +78,4 @@ describe("numGreater", function() {
     expect(emptyTree.numGreater(0)).toEqual(0);
   });
 });
+  
